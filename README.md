@@ -13,6 +13,8 @@ Node.js и npm для установки зависимостей фронтен
   ```bash
   git clone https://github.com/n1kakk/OrdersTestTask.git
   ```
+- Или загрузите ZIP-архив
+  
 2. ### **Чтобы запустить бэкенд**
 - Перейдите в директорию проекта:
   
@@ -40,8 +42,16 @@ Node.js и npm для установки зависимостей фронтен
   ```bash
    npm install
   ```
+- Выполните команду:
+  ```bash
+    npm run build
+  ```
 - Запустите проект:
   
   ```bash
-   npm run dev
+   npm start
+  ```
+- Это запустит приложение в production-режиме, и оно будет доступно по адресу:
+  ```bash
+    http://localhost:3000
   ```

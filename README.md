@@ -14,28 +14,34 @@ Node.js и npm для установки зависимостей фронтен
   git clone https://github.com/n1kakk/OrdersTestTask.git
 ```
 2. Чтобы запустить бэкенд
-# Перейдите в директорию проекта:
+- Перейдите в директорию проекта:
+  
 ```bash
 cd OrdersTestTask/src/OrderService
 ```
-# Восстановите необходимые зависимости:
+- Восстановите необходимые зависимости:
+  
 ```bash
 dotnet restore
 ```
-# Запустите проект:
+- Запустите проект:
+  
 ```bash
 dotnet run
 ```
 3. To run frontend
-# Перейдите в директорию проекта:
+- Перейдите в директорию проекта:
+  
 ``` bash
-OrdersTestTask\frontend\web-app>
+OrdersTestTask\frontend\web-app
 ```
-# Установите зависимости:
+- Установите зависимости:
+  
 ```bash
  npm install
 ```
-# Запустите проект:
+- Запустите проект:
+  
 ```bash
  npm run dev
 ```

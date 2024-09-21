@@ -13,7 +13,7 @@ Node.js и npm для установки зависимостей фронтен
   ```bash
   git clone https://github.com/n1kakk/OrdersTestTask.git
   ```
-2. Чтобы запустить бэкенд
+2. **Чтобы запустить бэкенд**
 - Перейдите в директорию проекта:
   
   ```bash
@@ -29,7 +29,7 @@ Node.js и npm для установки зависимостей фронтен
   ```bash
   dotnet run
   ```
-3. To run frontend
+3. **To run frontend**
 - Перейдите в директорию проекта:
   
   ``` bash

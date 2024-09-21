@@ -25,6 +25,7 @@ const NewOrder = () => {
   const [weight, setWeight] = useState([0.5]);
 
   const [error, setError] = useState(null);
+  
 
 
   const handleSubmit = async(e) =>{
@@ -135,7 +136,7 @@ const NewOrder = () => {
                   }}
                 />
               </label>
-              <div className="mb-4">
+              <div className="mb-4 required">
                 <label>Город отправителя</label>
                 <input
                   type="text"
@@ -144,7 +145,7 @@ const NewOrder = () => {
                   className="w-full px-3 py-2 border-b border-gray-300 bg-white text-black focus:outline-none"
                 />
               </div>
-              <div className="mb-4">
+              <div className="mb-4 required">
                 <label>Адрес отправителя</label>
                 <input
                   type="text"
@@ -172,7 +173,7 @@ const NewOrder = () => {
                   }}
                 />
               </label>
-              <div className="mb-4">
+              <div className="mb-4 required">
                 <label>Город получателя</label>
                 <input
                   type="text"
@@ -181,7 +182,7 @@ const NewOrder = () => {
                   className="w-full px-3 py-2 border-b border-gray-300 bg-white text-black focus:outline-none"
                 />
               </div>
-              <div className="mb-4">
+              <div className="mb-4 required">
                 <label>Адрес получателя</label>
                 <input
                   type="text"
@@ -193,7 +194,7 @@ const NewOrder = () => {
             </div>
           </div>
 
-=          <div className="flex justify-center space-x-10">
+          <div className="flex justify-center space-x-10">
             <div className="w-80">
             <label className="block mb-2">Дата забора груза</label>
               <label className="block mb-6">

@@ -60,12 +60,14 @@ const OrderDetails = () => {
     <div className="flex items-center justify-center min-h-screen bg-gray-100">
       <div className="container max-w-lg mx-auto p-6">
       <div className="flex items-center justify-between mb-6">
-            <h1 className="text-xl font-bold text-center flex-grow">Детали заказа</h1>
+            <h1 className="text-xl font-bold text-center flex-grow">                  <img src="/img/orderImage.png" alt="Order Image" className="inline-block w-5 h-5 mr-2" />
+            Детали заказа</h1>
             <div className="ml-4"> 
                 <Navigation /> 
             </div>
       </div>
               <div className="bg-white shadow-lg rounded-lg p-6">
+                
           <h2 className="text-lg font-bold mb-4">Заказ #{order.id}</h2>
           <h3 className="font-bold">Адрес отправителя</h3>
           <p>г {order.senderCity}</p>

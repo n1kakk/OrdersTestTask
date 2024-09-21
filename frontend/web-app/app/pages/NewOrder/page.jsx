@@ -111,7 +111,10 @@ const NewOrder = () => {
     <div className="flex items-center justify-center min-h-screen bg-gray-100">
       <div className="container max-w-4xl mx-auto p-6">
       <div className="flex items-center justify-between mb-6">
-            <h1 className="text-xl font-bold text-center flex-grow">Оформление заказа</h1>
+            <h1 className="text-xl font-bold text-center flex-grow">      
+                 <img src="/img/orderImage.png" alt="Order Image" className="inline-block w-5 h-5 mr-2" />
+                    Оформление заказа
+            </h1>
             <div className="ml-4"> 
                 <Navigation /> 
             </div>

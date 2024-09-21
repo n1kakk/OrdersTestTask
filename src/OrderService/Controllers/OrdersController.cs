@@ -46,7 +46,7 @@ public class OrdersController : ControllerBase
 
         if (createOrder.Date < DateTime.UtcNow.Date)
         {
-            ModelState.AddModelError("Date", "Дата должна быть позже текущей.");
+            ModelState.AddModelError("Date", "The date must be later than the current date.");
             return BadRequest(ModelState);
         }
 
